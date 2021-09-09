@@ -7,6 +7,6 @@ marksix_crawler.scrape()
 # %%
 # Read Data
 data = Data()
-df = data.get_data()
+df = data.data()
 print(df)
 # %%
