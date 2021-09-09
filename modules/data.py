@@ -28,7 +28,7 @@ Session = sessionmaker(bind=engine)
 class Data:
     def __init__(self):
         self.session = Session()
-        self.data = get_data()
+        self.data = self.get_data()
 
     def get_data(self):
         qry = self.session.query(Marksix)
